@@ -1,0 +1,1 @@
+using genAIHubAHSrv as service from '../../srv/service';
