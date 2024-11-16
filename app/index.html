@@ -27,7 +27,7 @@
                     return Controller.extend("PreviewController", {
                         onInit: function () {
 
-                            const data = {"Services":[{"ServiceName":"genAIHubAHSrv","DetailsURL":"./service/genAIHubAH/","Metadata":"./service/genAIHubAH/$metadata","Entities":[{"Name":"CustomerMessages","URL":"./service/genAIHubAH/CustomerMessages","FioriURL":"$fiori-preview/genAIHubAHSrv/CustomerMessages#preview-app"}],"EntitiesCount":1}]}
+                            const data = {"Services":[{"ServiceName":"genAIHubAHSrv","DetailsURL":"./service/genAIHubAH/","Metadata":"./service/genAIHubAH/$metadata","Entities":[{"Name":"CustomerMessages","URL":"./service/genAIHubAH/CustomerMessages","FioriURL":"$fiori-preview/genAIHubAHSrv/CustomerMessages#preview-app"},{"Name":"A_ServiceOrder","URL":"./service/genAIHubAH/A_ServiceOrder","FioriURL":"$fiori-preview/genAIHubAHSrv/A_ServiceOrder#preview-app"}],"EntitiesCount":2}]}
                             this.getView().setModel(new JSONModel(data));
                         }
                     });
